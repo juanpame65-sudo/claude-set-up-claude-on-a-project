@@ -16,7 +16,7 @@ Without the `.env` deny rule, Claude could read real secrets (API keys, database
 
 ## Verification
 
-- [ ] `claude --version` runs (installed and signed in)
-- [ ] `/memory` shows `CLAUDE.md` loaded in a fresh session
-- [ ] `/permissions` shows the allow / ask / deny rules above
-- [ ] Asking "How do I run the tests here?" is answered from `CLAUDE.md` without extra explanation
+- [x] `claude --version` runs (installed and signed in)
+- [x] `/memory` shows `CLAUDE.md` loaded in a fresh session
+- [x] `/permissions` shows the allow / ask / deny rules above
+- [x] Asking "How do I run the tests here?" is answered from `CLAUDE.md` without extra explanation
